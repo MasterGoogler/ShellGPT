@@ -11,6 +11,12 @@
 # Set the function name to be something short
 # Set your OpenAI API key here
 
+# This is the slick version, where you don't need to use "" for your prompt, 
+# it is paramaterized "automatically", this gives a much better user experience
+# but can give weird output
+
+# ChatGPT3.5-turbo Shell Interface
+# rename the function to anything you want to call it in the shell
 OPENAI_API_KEY="your-openai-api-key-here"
 
 ai() {
