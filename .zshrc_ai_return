@@ -1,6 +1,7 @@
 # Created by Chomp Oct 2023
 # Simple but fun way to use GPT without exiting the CLI
-#
+# This version lets the user type "ai" and then a prompt is returned for input
+# to be sent to ChatGPT-3.5-turbo
 # How to Install
 # Pre-reqs MacOS:           brew install curl jq
 # Pre-reqs Debian/Unix:     update, install curl jq

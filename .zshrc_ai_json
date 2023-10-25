@@ -1,0 +1,36 @@
+# Created by Chomp Oct 2023
+# Simple but fun way to use GPT without exiting the CLI
+# This version returns complex 
+# How to Install
+# Pre-reqs MacOS:           brew install curl jq
+# Pre-reqs Debian/Unix:     update, install curl jq
+# 
+# 1. Add this to the bottom of your Shell config file
+# 2. Add your API Key from OpenAI Chat-GPT
+# 3. simply type "ai" in your command line to ask GPT a question!
+
+gpt_query_with_token() {
+    local prompt=$1
+    local api_key="$2"
+
+    # Surround the prompt with double quotes for JSON formatting
+    prompt="\"$prompt\""
+
+    # Use jq to handle the JSON formatting for the payload
+    local data=$(jq -nc --arg content $prompt '{model: "gpt-3.5-turbo", messages: [{"role": "user", "content": $content}], temperature: 0.7}')
+
+    # Send the request to OpenAI's API
+    local response=$(curl -s -X POST "https://api.openai.com/v1/chat/completions" \
+        -H "Content-Type: application/json" \
+        -H "Authorization: Bearer $api_key" \
+        -d "$data")
+
+    # Check if the response is in JSON format
+    if echo "$response" | jq empty 2>/dev/null; then
+        # Parse and print the response using jq
+        echo "GPT says:" $(echo "$response" | jq -r '.choices[0].message.content')
+    else
+        # If not valid JSON, print the raw response
+        echo "Received non-JSON response:" $response
+    fi
+}

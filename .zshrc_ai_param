@@ -8,10 +8,6 @@
 # 1. Add this to the bottom of your Shell config file
 # 2. Add your API Key from OpenAI Chat-GPT
 # 3. simply type "ai" in your command line to ask GPT a question!
-
-# Set your OpenAI API key here
-OPENAI_API_KEY="your-openai-api-key-here"
-
 # Set the function name to be something short
 # Set your OpenAI API key here
 OPENAI_API_KEY="your-openai-api-key-here"
