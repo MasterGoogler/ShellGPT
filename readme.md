@@ -1,7 +1,7 @@
 # ShellGPT
 A shell module for trolling GPT without leaving the shell. 
 
-[What can ShellGPT do for you?]([[https://github.com/MasterGoogler/ShellGPT/images/example_output.png](https://github.com/MasterGoogler/ShellGPT/images/example_output.png)]
+[What can ShellGPT do for you?](https://github.com/MasterGoogler/ShellGPT/images/example_output.png](https://github.com/MasterGoogler/ShellGPT/images/example_output.png)
 
 (https://github.com/MasterGoogler/ShellGPT/blob/main/images/example_output.png)https://github.com/MasterGoogler/ShellGPT/blob/main/images/example_output.png)
 
