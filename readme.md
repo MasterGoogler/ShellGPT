@@ -47,4 +47,4 @@ GPT says: The capital of France is Paris.
 You now have a quick and interactive way to use GPT models directly from your terminal.
 Feel free to modify and expand upon this basic example to better suit your specific needs.
 
-[What can ShellGPT do for you?](https://github.com/MasterGoogler/ShellGPT/images/example_output.png)
+[What can ShellGPT do for you?]([https://github.com/MasterGoogler/ShellGPT/images/example_output.png](https://github.com/MasterGoogler/ShellGPT/blob/main/images/example_output.png)https://github.com/MasterGoogler/ShellGPT/blob/main/images/example_output.png)
