@@ -3,10 +3,6 @@ A shell module for trolling GPT without leaving the shell.
 
 [What can ShellGPT do for you?](https://github.com/MasterGoogler/ShellGPT/images/example_output.png)
 
-https://github.com/MasterGoogler/ShellGPT/images/example_output.png
-
-(https://github.com/MasterGoogler/ShellGPT/blob/main/images/example_output.png)https://github.com/MasterGoogler/ShellGPT/blob/main/images/example_output.png)
-
 #### GPT Query in Terminal
 This guide provides instructions for setting up a quick and interactive way to use GPT in your terminal.
 
