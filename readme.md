@@ -1,6 +1,10 @@
 # ShellGPT
 A shell module for trolling GPT without leaving the shell. 
 
+[What can ShellGPT do for you?]([[https://github.com/MasterGoogler/ShellGPT/images/example_output.png](https://github.com/MasterGoogler/ShellGPT/images/example_output.png)]
+
+(https://github.com/MasterGoogler/ShellGPT/blob/main/images/example_output.png)https://github.com/MasterGoogler/ShellGPT/blob/main/images/example_output.png)
+
 #### GPT Query in Terminal
 This guide provides instructions for setting up a quick and interactive way to use GPT in your terminal.
 
@@ -47,4 +51,4 @@ GPT says: The capital of France is Paris.
 You now have a quick and interactive way to use GPT models directly from your terminal.
 Feel free to modify and expand upon this basic example to better suit your specific needs.
 
-[What can ShellGPT do for you?]([https://github.com/MasterGoogler/ShellGPT/images/example_output.png](https://github.com/MasterGoogler/ShellGPT/blob/main/images/example_output.png)https://github.com/MasterGoogler/ShellGPT/blob/main/images/example_output.png)
+
