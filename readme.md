@@ -36,7 +36,7 @@ After adding the function, reload your shell configuration to make the function 
 
 # For Zsh users
 `source ~/.zshrc` 
-
+and when you update the file `exec zsh` of to immediatelz test your changes
 #### Usage
 - Simply type ai followed by your query, JSON output is supported but still a little bit buggy. 
 - The function will prompt you for input, make the API call, and display the GPT-generated response.
